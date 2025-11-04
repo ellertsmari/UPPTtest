@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML Elements Demo</title>
+  </head>
+  <body>
+    <h1>HTML Elements Demo</h1>
+    <p>This page shows a few basic HTML elements: heading, paragraph, button, link and image.</p>
+
+    <button id="demoBtn">Click me</button>
+    <a href="#" id="demoLink">This is a link</a>
+
+    <p>
+      <img src="images/sample.svg" alt="Sample image from repository" style="max-width:100%;height:auto;display:block;margin-top:1rem;" />
+    </p>
+
+    <script>
+      // Tiny interaction for demonstration
+      document.getElementById('demoBtn').addEventListener('click', function () {
+        alert('Button clicked — this shows how a button can trigger JavaScript.');
+      });
+    </script>
+  </body>
+</html>
